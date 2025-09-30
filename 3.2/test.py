@@ -77,6 +77,41 @@
 #countries_and_capitals["Сербия"] = "Белград"
 #print(countries_and_capitals)
 
-d = {'key':'old_value'}
-d['key'] = "new_value"
-print(d)
+#d = {'key':'old_value'}
+#d['key'] = "new_value"
+#print(d)
+
+#countries_and_capitals = {"Россия":"Москва",
+#"США":"Вашингтон",
+#"Франция":"Париж"
+#}
+#if "Сербия" in countries_and_capitals:
+#    print(countries_and_capitals["Сербия"])
+#else:
+#    print("No")
+#
+#for country in countries_and_capitals:
+#    print(f"У страны {country} столица - {countries_and_capitals[country]}")
+
+#countries = dict()
+#country = input()
+#str_number = 0
+#while country != "СТОП":
+#    if country not in countries:
+#        countries[country] = [str_number]
+#    else:
+#        countries[country].append(str_number)
+#    str_number += 1
+#    country = input()
+#for country in countries:
+#    print(f"{country}: {countries[country]}")
+
+#countries = dict()
+#country = input()
+#str_number = 0
+#while country != "СТОП":
+#    countries[country] = countries.get(country,[])+ [str_number]
+#    str_number += 1
+#    country = input()
+#for country in countries:
+#    print(f"{country}: {countries[country]}")
