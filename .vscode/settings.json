@@ -1,4 +1,11 @@
 {
-    "autopep8.args": [],
-    "autopep8.cwd": "${workspaceFolder}"
+  "python.formatting.provider": "black",
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "100"
+  ],
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  }
 }
